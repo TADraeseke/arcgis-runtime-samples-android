@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
     featureLayer.loadAsync()
     featureLayer.addDoneLoadingListener {
       if (featureLayer.loadStatus != LoadStatus.LOADED) {
-        Log.e("MainActivity", "FEATURE LAYER NOT LOADED: ${featureLayer.loadError}")
+        Log.e("MainActivity", "Feature layer not loaded: ${featureLayer.loadError}")
       }
     }
 
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
       try {
         mapView.setViewpointAsync(Viewpoint(featureLayer.fullExtent))
       } catch (e: Exception) {
-        Log.e("MainActivity", "aaaaaaaahhhhhhhh")
+        Log.e("MainActivity", "Feature query result failed to load: ${e.message}")
       }
     }
 
