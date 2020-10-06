@@ -1,10 +1,10 @@
-# Change atmosphere effect
+# hange atmosphere effect
 
 Changes the appearance of the atmosphere in a scene.
 
 ![Image of change atmosphere effect](change-atmosphere-effect.png)
 
-## Use case
+# Use case
 
 Atmospheric effect can be used to make the scene view look more realistic.
 
@@ -17,11 +17,6 @@ Select one of the three available atmosphere effects. The sky will change to dis
 1. Create an `ArcGISScene` and display it in a `SceneView`.
 2. Change the atmosphere effect with `sceneView.atmosphereEffect`.
 
-## Relevant API
-
-* ArcGISScene
-* AtmosphereEffect
-* SceneView
 
 ## Additional information
 
