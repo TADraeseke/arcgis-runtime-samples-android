@@ -1,4 +1,4 @@
-# ArcGIS tiled layer URL
+#  tiled layer URL
 
 Load an ArcGIS tiled layer from a URL.
 
@@ -8,9 +8,6 @@ Load an ArcGIS tiled layer from a URL.
 
 A tiled layer consumes raster tiles provided by an ArcGIS service or a tile package (.tpk & .tpkx). Dividing a raster into tiles provides the user with relevant tiles and level of detail while panning and zooming, allowing for rapid map visualization and navigation. For example, say you wanted an application with a map containing all museums in your city so that you could share this with tourists. Since only the museums would need to support being identifiable or queryable within the app, all other contextual information required to orient and direct the tourists could be sourced from a single ArcGIS tiled layer, leading to faster performance and minimizing the time to load the map.
 
-## How to use the sample	
-
-Launch the app to view the "World Topographic Map" tile layer as the basemap. 
 
 ## How it works
 
